@@ -6,6 +6,22 @@
 
 React Fancy PDF is a simple and fancy PDF Viewer based on pdf.js
 
+# Getting started
+Check if `yarn` and `node` is installed:
+```bash
+$ yarn --version
+$ node --version
+```
+
+If not installed, install `yarn` by following the instructions [here](https://yarnpkg.com/en/docs/install), and `node` by following the instructions [here](https://nodejs.org/en/download/) before proceeding.
+
+
+To get started:
+```bash
+$ yarn           # Install project dependencies
+$ yarn start     # Compile and launch (same as `npm run dev`)
+```
+
 [build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
 [build]: https://travis-ci.org/user/repo
 
