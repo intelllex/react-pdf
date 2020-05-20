@@ -4,7 +4,7 @@
 [![npm package][npm-badge]][npm]
 [![Coveralls][coveralls-badge]][coveralls]
 
-React Fancy PDF is a simple and fancy PDF Viewer library for React based on pdf.js
+React Fancy PDF is a simple and fancy PDF Viewer based on pdf.js
 
 [build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
 [build]: https://travis-ci.org/user/repo
