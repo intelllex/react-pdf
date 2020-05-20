@@ -1,0 +1,95 @@
+.toolbox-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  .toolbox-wrapper {
+    position: absolute;
+    top: calc(100vh - 120px);
+    left: calc(50% - 208px);
+
+    .toolbox {
+      position: fixed;
+      background-color: #97a1b6;
+      z-index: 9999;
+      bottom: 28px;
+      max-height: 48px;
+      width: 416px;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: white;
+      border-radius: 3px;
+
+      svg {
+        cursor: pointer;
+        &.disabled {
+          cursor: default;
+          path {
+            fill-opacity: 0.3;
+          }
+        }
+      }
+
+      .toolbox-action {
+        display: inline-block;
+        vertical-align: middle;
+        cursor: pointer;
+        padding: 5px 10px;
+      }
+
+      .page-navigation {
+        display: flex;
+        font-size: 13px;
+        
+        .page-up {
+          margin-right: 20px;
+        }
+        .page-down {
+          margin-left: 20px;
+        }
+
+        .pageNumber {
+          font-size: 13px;
+          font-weight: 500;
+          color: white;
+          overflow: visible;
+          border-bottom: white 1px solid;
+
+          &.input-focused {
+            border-bottom: none;
+          }
+    
+          input {
+            font-size: 13px;
+            text-align: center;
+            width: 20px;
+            height: 15px;
+            font-weight: 500;
+            color: white;
+            border: none;
+            outline: none;
+            background-color: #97a1b6;
+
+            &:focus {
+              border:1px solid #D0DAE3;
+              border-radius: 2px;
+              height: 20px;
+            }
+          }
+          input::-webkit-outer-spin-button,
+          input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+          }
+    
+          /* Firefox */
+          input[type=number] {
+            -moz-appearance: textfield;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.progress-bar {
+  width: 100%;
+  text-align: center;
+  height: 4px;
+
+  .progress {
+    position: relative;
+    color: #ffffff;
+    width: 100%;
+    background: rgb(124, 153, 209);
+    border-radius: none;
+    text-align: center;
+    z-index: 10000;
+
+    .progress-percent{
+      height: 4px;
+      position: absolute;
+      background: linear-gradient(270deg, #FD7243 43.94%, #FDB343 100%);
+      left: 0;
+      top: 0;
+      bottom: 0;
+      z-index: 10001;
+    }
+  }
+}
