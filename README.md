@@ -24,7 +24,8 @@ yarn add react-fancy-pdf
 
 # How to use
 
-```import React from 'react'
+```js
+import React from 'react'
 import ReactFancyPDF from 'react-fancy-pdf';
  
 const ExampleFancyPDFViewer = () => {
