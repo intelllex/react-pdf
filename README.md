@@ -6,7 +6,7 @@
 React Fancy PDF is a simple and fancy PDF Viewer based on pdf.js
 
 - Thumnail sidebar
-- Toolbox with useful feature likes zoom in, zoom out, page navigation, page up, pagedown
+- Toolbox with useful feature likes zoom in, zoom out, page jump, page up, pagedown
 - Search within page
 
 ![image info](https://i.imgur.com/rqECUDN.png)
@@ -26,7 +26,7 @@ yarn add react-fancy-pdf
 # How to use
 
 ```js
-import React from 'react'
+import React from 'react';
 import ReactFancyPDF from 'react-fancy-pdf';
  
 const ExampleFancyPDFViewer = () => {
@@ -37,7 +37,7 @@ const ExampleFancyPDFViewer = () => {
             showToolbox
         />
     )
-}
+};
  
 export default ExamplePDFViewer;
 ```
@@ -86,7 +86,7 @@ React component prop. types:
 -   `onToggleThumbnail`:
     -   Type: _Function_
     -   Required: **false**
-    -   Description: Callback with `isShowThumbSidebar` param when toggle Thumbnail sidebar
+    -   Description: Callback with `isShowThumbSidebar` param when toggling Thumbnail sidebar
 
 [build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
 [build]: https://travis-ci.org/user/repo
