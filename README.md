@@ -2,7 +2,6 @@
 
 [![Travis][build-badge]][build]
 [![npm package][npm-badge]][npm]
-[![Coveralls][coveralls-badge]][coveralls]
 
 React Fancy PDF is a simple and fancy PDF Viewer based on pdf.js
 
@@ -64,7 +63,30 @@ React component prop. types:
     -   Required: **false**
     -   Description: Show the useful toolbox on PDF Pages
 
+-   `onChangePage`:
+    -   Type: _Function_
+    -   Required: **false**
+    -   Description: Callback with `page` param when changing Page Number
 
+-   `onZoomIn`:
+    -   Type: _Function_
+    -   Required: **false**
+    -   Description: Callback when clicking on Zoom In button
+
+-   `onZoomOut`:
+    -   Type: _Function_
+    -   Required: **false**
+    -   Description: Callback when clicking on Zoom Out button
+
+-   `onProgress`:
+    -   Type: _Function_
+    -   Required: **false**
+    -   Description: Callback with `progress` param when loading PDF
+
+-   `onToggleThumbnail`:
+    -   Type: _Function_
+    -   Required: **false**
+    -   Description: Callback with `isShowThumbSidebar` param when toggle Thumbnail sidebar
 
 [build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
 [build]: https://travis-ci.org/user/repo

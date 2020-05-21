@@ -23,6 +23,8 @@ class PdfViewer extends PureComponent {
   setCurrentPage = (currentPage) => {
     if (currentPage !== this.state.currentPage) {
       this.setState({ currentPage });
+      const { onChangePage } = this.props;
+      onChangePage && onChangePage(currentPage);
     }
   }
 
@@ -42,15 +44,23 @@ class PdfViewer extends PureComponent {
     this.setState({
       scale: this.state.scale + ZOOM_STEP
     });
+    const { onZoomIn } = this.props;
+    onZoomIn && onZoomIn();
   }
 
   onZoomOut = () => {
     this.setState({
       scale: this.state.scale - ZOOM_STEP
     });
+    const { onZoomOut } = this.props;
+    onZoomOut && onZoomOut();
   }
 
-  updateProgressBar = progress => this.setState({ progress });
+  updateProgressBar = progress => {
+    this.setState({ progress });
+    const { onProgress } = this.props;
+    onProgress && onProgress();
+  } 
 
   onChangePage = (e) => {
     const newPageNum = Number(e.target.value);
@@ -71,6 +81,8 @@ class PdfViewer extends PureComponent {
     this.setState({
       showThumbSidebar: !this.state.showThumbSidebar
     });
+    const { onToggleThumbnail } = this.props;
+    onToggleThumbnail && onToggleThumbnail(!this.state.showThumbSidebar);
   }
 
   showSearchBar = () => {
