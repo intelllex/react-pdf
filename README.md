@@ -39,7 +39,7 @@ const ExampleFancyPDFViewer = () => {
     )
 };
  
-export default ExamplePDFViewer;
+export default ExampleFancyPDFViewer;
 ```
 
 # Documentation
