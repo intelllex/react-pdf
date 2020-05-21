@@ -6,21 +6,62 @@
 
 React Fancy PDF is a simple and fancy PDF Viewer based on pdf.js
 
-# Getting started
-Check if `yarn` and `node` is installed:
-```bash
-$ yarn --version
-$ node --version
+- Thumnail sidebar
+- Toolbox with useful feature likes zoom in, zoom out, page navigation, page up, pagedown
+- Search within page
+
+# How to install
+
+```
+npm install react-fancy-pdf
 ```
 
-If not installed, install `yarn` by following the instructions [here](https://yarnpkg.com/en/docs/install), and `node` by following the instructions [here](https://nodejs.org/en/download/) before proceeding.
+or
 
-
-To get started:
-```bash
-$ yarn           # Install project dependencies
-$ yarn start     # Compile and launch (same as `npm run dev`)
 ```
+yarn add react-fancy-pdf
+```
+
+# How to use
+
+```import React from 'react'
+import ReactFancyPDF from 'react-fancy-pdf';
+ 
+const ExampleFancyPDFViewer = () => {
+    return (
+        <PDFViewer
+            url="https://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf"
+            showProgressBar
+            showToolbox
+        />
+    )
+}
+ 
+export default ExamplePDFViewer;
+```
+
+# Documentation
+React component prop. types:
+
+-   `url`:
+
+    -   Type: _String_
+    -   Required: **true**
+    -   Description: The URL of PDF Document you want to display.
+
+-   `showProgressBar`:
+
+    -   Type: _Boolean_
+    -   Required: **false**
+    -   Description: Show progress bar on top when loading PDF Document
+
+-   `showToolbox`:
+
+    -   Type: _Boolean_
+    -   Required: **false**
+    -   Description: Show the useful toolbox on PDF Pages
+
+
 
 [build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
 [build]: https://travis-ci.org/user/repo
@@ -30,3 +71,5 @@ $ yarn start     # Compile and launch (same as `npm run dev`)
 
 [coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
 [coveralls]: https://coveralls.io/github/user/repo
+
+
