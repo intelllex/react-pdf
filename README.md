@@ -10,6 +10,8 @@ React Fancy PDF is a simple and fancy PDF Viewer based on pdf.js
 - Toolbox with useful feature likes zoom in, zoom out, page navigation, page up, pagedown
 - Search within page
 
+![image info](https://i.imgur.com/rqECUDN.png)
+
 # How to install
 
 ```
