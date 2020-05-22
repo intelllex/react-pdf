@@ -4,7 +4,7 @@
 
 **React Fancy PDF is a simple and fancy PDF Viewer based on pdf.js**
 
-[React Fancy PDF Demo](https://intelllex.github.io/react-fancy-pdf/)
+[Demo](https://intelllex.github.io/react-fancy-pdf/)
 
 - Progress Bar when loading PDF
 - Thumbnail sidebar
