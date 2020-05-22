@@ -22,7 +22,7 @@
   "dependencies": {
     "classnames": "^2.2.6",
     "lodash": "^4.17.4",
-    "pdfjs-dist": "2.0.338",
+    "pdfjs-dist": "2.0.338"
   },
   "peerDependencies": {
     "react": "16.x"
