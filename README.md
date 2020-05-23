@@ -47,45 +47,45 @@ export default ExampleFancyPDFViewer;
 # Documentation
 React component prop. types:
 
--   `url`:
+-   `url`
 
     -   Type: _String_
     -   Required: **true**
     -   Description: The URL of PDF Document you want to display.
 
--   `showProgressBar`:
+-   `showProgressBar`
 
     -   Type: _Boolean_
     -   Required: **false**
     -   Description: Show progress bar on top when loading PDF Document
 
--   `showToolbox`:
+-   `showToolbox`
 
     -   Type: _Boolean_
     -   Required: **false**
     -   Description: Show the useful toolbox on PDF Pages
 
--   `onChangePage`:
+-   `onChangePage`
     -   Type: _Function_
     -   Required: **false**
     -   Description: Callback with `page` param when changing Page Number
 
--   `onZoomIn`:
+-   `onZoomIn`
     -   Type: _Function_
     -   Required: **false**
     -   Description: Callback when clicking on Zoom In button
 
--   `onZoomOut`:
+-   `onZoomOut`
     -   Type: _Function_
     -   Required: **false**
     -   Description: Callback when clicking on Zoom Out button
 
--   `onProgress`:
+-   `onProgress`
     -   Type: _Function_
     -   Required: **false**
     -   Description: Callback with `progress` param when loading PDF
 
--   `onToggleThumbnail`:
+-   `onToggleThumbnail`
     -   Type: _Function_
     -   Required: **false**
     -   Description: Callback with `isShowThumbSidebar` param when toggling Thumbnail sidebar
