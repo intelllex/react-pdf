@@ -34,7 +34,7 @@ import ReactFancyPDF from 'react-fancy-pdf';
 const ExampleFancyPDFViewer = () => {
     return (
         <ReactFancyPDF
-            url="https://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf"
+            url="<PDF_url>"
             showProgressBar
             showToolbox
         />
