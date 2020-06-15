@@ -1,5 +1,4 @@
 import React, { PureComponent } from 'react';
-import classnames from 'classnames';
 
 import PDFPages from './PDFPages';
 import PDFToolbox from './PDFToolbox';
@@ -135,12 +134,7 @@ class PdfViewer extends PureComponent {
           />
 
           {/* PDF Content */}
-          <div 
-            className={
-              classnames('pdfViewer', { full: !showThumbSidebar })
-            }
-          >
-            
+          <div className={`pdfViewer ${!showThumbSidebar ? 'full' : ''}`}>
             {/* PDF Toolbox */}
             {showToolbox &&
               <PDFToolbox

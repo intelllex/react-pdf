@@ -1,6 +1,5 @@
 /* eslint-disable */
 import React, { PureComponent } from 'react';
-import classnames from 'classnames';
 import Thumbnail from './Thumbnail';
 
 import './index.scss';
@@ -79,11 +78,7 @@ class PDFThumbbar extends PureComponent {
     }
 
     return (
-      <div
-        className={
-          classnames('pdf-thumbnail-bar', { hide: !showThumbSidebar })
-        }
-      >
+      <div className={`pdf-thumbnail-bar ${!showThumbSidebar ? 'hide' : ''}`}>
         {thumbnails.map(thumbnail => {
             return (<Thumbnail
               key={thumbnail.pageNum}
