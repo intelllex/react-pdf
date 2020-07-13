@@ -5,7 +5,6 @@ function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.crea
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 import React, { PureComponent } from 'react';
-import classnames from 'classnames';
 import PDFPages from './PDFPages';
 import PDFToolbox from './PDFToolbox';
 import PDFThumbBar from './PDFThumbBar';

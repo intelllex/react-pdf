@@ -1,5 +1,5 @@
 {
-  "name": "react-fancy-pdf",
+  "name": "@intelllex/react-fancy-pdf",
   "version": "1.0.0",
   "description": "React Fancy PDF Viewer",
   "main": "lib/index.js",

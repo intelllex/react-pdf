@@ -91,7 +91,9 @@ React component prop. types:
     -   Description: Callback with `isShowThumbSidebar` param when toggling Thumbnail sidebar
 
 # Contributors
-- **React Fancy PDF** was designed by [Cellyn Tan](https://cellyntan.com), Digital Product Designer from [INTELLLEX](https://intelllex.com).
+- Designed by [Cellyn Tan](https://cellyntan.com), Digital Product Designer at [INTELLLEX](https://intelllex.com).
+
+- Implement by [Trinh Ngoc Dieu](https://trinhngocdieu.com), Software Enginner at [INTELLLEX](https://intelllex.com).
 
 [build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
 [build]: https://travis-ci.org/user/repo
