@@ -16,20 +16,20 @@
 # How to install
 
 ```
-npm install react-fancy-pdf
+npm install @intelllex/react-pdf
 ```
 
 or
 
 ```
-yarn add react-fancy-pdf
+yarn add @intelllex/react-pdf
 ```
 
 # How to use
 
 ```js
 import React from 'react';
-import ReactFancyPDF from '@intelllex/react-fancy-pdf';
+import ReactFancyPDF from '@intelllex/react-pdf';
  
 const ExampleFancyPDFViewer = () => {
     return (
