@@ -2,9 +2,9 @@
 
 [![npm package][npm-badge]][npm]
 
-**React Fancy PDF is a simple and fancy PDF Viewer based on pdf.js**
+**React PDF is a simple and fancy PDF Viewer based on pdf.js**
 
-[Demo](https://intelllex.github.io/react-fancy-pdf/)
+[Demo](https://intelllex.github.io/react-pdf/)
 
 - Progress Bar when loading PDF
 - Thumbnail sidebar
@@ -29,11 +29,11 @@ yarn add @intelllex/react-pdf
 
 ```js
 import React from 'react';
-import ReactFancyPDF from '@intelllex/react-pdf';
+import ReactPDF from '@intelllex/react-pdf';
  
-const ExampleFancyPDFViewer = () => {
+const ExampleReactPDF = () => {
     return (
-        <ReactFancyPDF
+        <ReactPDF
             url="<PDF_url>"
             showProgressBar
             showToolbox
@@ -41,7 +41,7 @@ const ExampleFancyPDFViewer = () => {
     )
 };
  
-export default ExampleFancyPDFViewer;
+export default ExampleReactPDF;
 ```
 
 # Documentation
