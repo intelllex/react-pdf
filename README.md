@@ -1,4 +1,4 @@
-# react-fancy-pdf
+# react-pdf
 
 [![npm package][npm-badge]][npm]
 
