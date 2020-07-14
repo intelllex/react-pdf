@@ -29,7 +29,7 @@ yarn add react-fancy-pdf
 
 ```js
 import React from 'react';
-import ReactFancyPDF from 'react-fancy-pdf';
+import ReactFancyPDF from '@intelllex/react-fancy-pdf';
  
 const ExampleFancyPDFViewer = () => {
     return (

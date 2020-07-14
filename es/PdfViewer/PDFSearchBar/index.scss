@@ -1,0 +1,53 @@
+#pdfSearchbar {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 20px;
+  left: 200px;
+  width: 300px;
+  max-height: 36px;
+  border-radius: 3px;
+  background-color: #313b51;
+  z-index: 9999;
+  padding: 10px;
+
+  input {
+    font-size: 0.813rem;
+    background-color: #313b51;
+    border: none;
+    color: white;
+
+    &::placeholder {
+      color: rgba(151, 161, 182, 0.5);
+    }
+
+    &:focus {
+      outline: none !important;
+      border: none;
+    }
+  }
+
+  .search-info {
+    font-size: 0.813rem;
+    display: flex;
+    align-items: center;
+
+    .search-status {
+      display: flex;
+      align-items: center;
+      color: rgba(151, 161, 182, 0.5);
+    }
+    .search-bar-ico {
+      cursor: pointer;
+      margin-left: 4px;
+
+      &.disabled {
+        cursor: default;
+        path {
+          fill-opacity: 0.29;
+        }
+      }
+    }
+  }
+}

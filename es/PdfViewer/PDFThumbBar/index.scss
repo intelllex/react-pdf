@@ -1,0 +1,15 @@
+.pdf-thumbnail-bar {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 140px;
+  overflow: auto;
+  background-color: #F1F3F7;
+  border-right: #DCE0E3 1px solid;
+  padding: 22px 24px;
+  transition: all 0.5s;
+
+  &.hide {
+    margin-left: -190px;
+  }
+}

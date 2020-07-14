@@ -1,0 +1,20 @@
+.thumbnail {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+
+  img, .placeholder {
+    border: solid 3px white;
+    width:100%;
+    cursor: pointer;
+    
+    &:hover, &.focused {
+      border: solid 3px #7c86a5;
+    }
+  }
+  .page-number {
+    margin-top: 4px;
+  }
+}
