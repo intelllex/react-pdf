@@ -1,6 +1,6 @@
 {
   "name": "@intelllex/react-pdf",
-  "version": "1.0.7",
+  "version": "1.0.12",
   "description": "Intelllex React PDF",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -50,6 +50,9 @@
   "license": "MIT",
   "repository": "",
   "keywords": [
-    "react-fancy-pdf"
+    "pdfjs",
+    "react-pdf",
+    "pdf-viewer",
+    "react-pdf-viewer"
   ]
 }

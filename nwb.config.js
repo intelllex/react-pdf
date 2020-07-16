@@ -3,8 +3,5 @@ module.exports = {
   npm: {
     esModules: true,
     umd: false
-  },
-  webpack: {
-    
   }
 }
