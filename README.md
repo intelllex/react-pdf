@@ -6,7 +6,7 @@
 
 - Progress Bar
 - Thumbnail sidebar
-- Toolbox (zoom in, zoom out, page jump, page up, pagedown)
+- Toolbox (zoom in, zoom out, page jump, page up, page down)
 - Search within page
 
 ![image info](https://i.imgur.com/rqECUDN.png)
@@ -89,9 +89,9 @@ React component prop. types:
     -   Description: Callback with `isShowThumbSidebar` param when toggling Thumbnail sidebar
 
 # Contributors
-- Designed by [Cellyn Tan](https://cellyntan.com), Digital Product Designer at [INTELLLEX](https://intelllex.com).
+- Design by [Cellyn Tan](https://cellyntan.com), Digital Product Designer at [INTELLLEX](https://intelllex.com).
 
-- Implement by [Trinh Ngoc Dieu](https://trinhngocdieu.com), Software Engineer at [INTELLLEX](https://intelllex.com).
+- Maintain by [Trinh Ngoc Dieu](https://trinhngocdieu.com), Software Engineer at [INTELLLEX](https://intelllex.com).
 
 # License
 Copyright © 2020 INTELLLEX HOLDINGS PRIVATE LIMITED

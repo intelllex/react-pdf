@@ -1,6 +1,6 @@
 {
   "name": "@intelllex/react-pdf",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Intelllex React PDF",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -45,10 +45,10 @@
       "^.+\\.(css|less|scss)$": "identity-obj-proxy"
     }
   },
-  "author": "",
-  "homepage": "",
+  "author": "trinhngocdieu",
+  "homepage": "https://intelllex.github.io/react-pdf/",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/intelllex/react-pdf",
   "keywords": [
     "pdfjs",
     "react-pdf",
