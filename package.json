@@ -45,8 +45,12 @@
   "license": "MIT",
   "repository": "https://github.com/intelllex/react-pdf",
   "keywords": [
+    "react",
+    "pdf",
     "pdfjs",
     "react-pdf",
+    "pdf-reader",
+    "react-pdf-reader",
     "pdf-viewer",
     "react-pdf-viewer"
   ]
