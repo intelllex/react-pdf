@@ -2,6 +2,7 @@
 
 **React PDF is a simple and fancy PDF Viewer based on pdf.js**
 
+![Node.js CI](https://github.com/intelllex/react-pdf/workflows/Node.js%20CI/badge.svg)
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://github.com/intelllex/react-pdf) 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/intelllex/react-pdf/graphs/commit-activity)
 [![Downloads Total](https://img.shields.io/npm/dt/@intelllex/react-pdf.svg)](https://www.npmjs.com/package/@intelllex/react-pdf)
