@@ -5,6 +5,9 @@ module.exports = {
   "transform": {
      "^.+\\.js$": "<rootDir>/jest.transform.js"
   },
+  "moduleNameMapper": {
+    "^.+\\.(css|less|scss)$": "identity-obj-proxy"
+  },
   "testRegex": "(/__tests__/.*|\\.(test|spec))\\.jsx?$",
   "moduleFileExtensions": ["js", "json", "jsx", "node"],
   "coverageThreshold": {
