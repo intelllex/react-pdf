@@ -40,11 +40,6 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
-  "jest": {
-    "moduleNameMapper": {
-      "^.+\\.(css|less|scss)$": "identity-obj-proxy"
-    }
-  },
   "author": "trinhngocdieu",
   "homepage": "https://intelllex.github.io/react-pdf/",
   "license": "MIT",
