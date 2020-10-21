@@ -21,9 +21,6 @@ export class PdfPages extends React.Component {
   }
 
   componentWillUnmount() {
-    const { pdf } = this.state;
-    pdf && pdf.destroy();
-    this.documentPromise && this.documentPromise.cancel();
     this.docViewer.removeEventListener('scroll', this.onScrollCheck);
   }
 

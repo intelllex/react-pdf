@@ -1,6 +1,6 @@
 {
   "name": "@intelllex/react-pdf",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Intelllex React PDF",
   "main": "lib/index.js",
   "module": "es/index.js",
